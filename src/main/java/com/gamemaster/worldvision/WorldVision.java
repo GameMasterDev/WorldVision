@@ -1,7 +1,7 @@
 package com.gamemaster.worldvision;
 
+import com.gamemaster.worldvision.reg.ItemRegistries;
 import com.gamemaster.worldvision.tabs.FuturistTab;
-import com.gamemaster.worldvision.tabs.TechnologicTab;
 import com.gamemaster.worldvision.utils.Refs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,6 +20,9 @@ public class WorldVision {
 
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(futuristTab);
+
+        // Items
+        ItemRegistries.ITEMS.register(modEventBus);
 
     }
 
