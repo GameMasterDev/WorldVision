@@ -4,8 +4,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
-public class TechnologicTab extends CreativeModeTab {
-    public TechnologicTab(String label) {
+public class FuturistTab extends CreativeModeTab {
+    public FuturistTab(String label) {
         super(label);
     }
 
