@@ -1,5 +1,6 @@
 package com.gamemaster.worldvision;
 
+import com.gamemaster.worldvision.reg.BlockRegistries;
 import com.gamemaster.worldvision.reg.ItemRegistries;
 import com.gamemaster.worldvision.tabs.FuturistTab;
 import com.gamemaster.worldvision.utils.Refs;
@@ -21,7 +22,8 @@ public class WorldVision {
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(futuristTab);
 
-        // Items
+        // Registries
+        BlockRegistries.BLOCKS.register(modEventBus);
         ItemRegistries.ITEMS.register(modEventBus);
 
     }

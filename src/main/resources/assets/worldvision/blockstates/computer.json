@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "worldvision:block/computer",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "worldvision:block/computer"
+    },
+    "facing=south": {
+      "model": "worldvision:block/computer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "worldvision:block/computer",
+      "y": 270
+    }
+  }
+}
